@@ -1,0 +1,45 @@
+double price = 19.99;
+double tax = 0.11;
+int quantity = 2;
+float discount = 0.1f;
+double total = price * quantity;
+double totalDiscount = total * discount;
+double totalTax = total * tax;
+double totalFinal = total - totalDiscount + totalTax;
+string repeatedChars = new string('-', 20);
+Console.WriteLine(repeatedChars + "Arithmetic Operators" + repeatedChars);
+Console.WriteLine("Price of product : \t\t" + price + " * " + quantity);
+Console.WriteLine("Total price : \t\t\t" + total);
+Console.WriteLine("Total tax : \t\t\t" + totalTax);
+Console.WriteLine("Total discount : \t\t" + totalDiscount);
+Console.WriteLine("Total Final price : \t\t" + totalFinal);
+Console.WriteLine(repeatedChars + "Comparison Operators" + repeatedChars);
+Console.WriteLine("is price less that tax: \t" + (price < tax));
+Console.WriteLine("is price greater than tax:\t" + (price > tax));
+
+Console.WriteLine(repeatedChars + "Assignment Operators" + repeatedChars);
+
+int a = 5;
+Console.WriteLine("the value of a is: {0}",a);
+a += 10;
+Console.WriteLine("the value of a after reassign += 10 : {0}",a);
+a -= 5;
+Console.WriteLine("the value of a after reassign -= 5 : {0}",a);
+a *= 2;
+Console.WriteLine("the value of a after reassign *= 2 : {0}",a);
+a /= 2;
+Console.WriteLine("the value of a after reassign /= 2 : {0}",a);
+a %= 2;
+Console.WriteLine("the value of a after reassign %= 2 : {0}",a);
+a ^= 2;
+Console.WriteLine("the value of a after reassign ^= 2 : {0}",a);
+a &= 2;
+Console.WriteLine("the value of a after reassign &= 2 : {0}",a);
+a |= 2;
+Console.WriteLine("the value of a after reassign |= 2 : {0}",a);
+a <<= 2;
+Console.WriteLine("the value of a after reassign <<= 2 : {0}",a);
+a >>= 2;
+Console.WriteLine("the value of a after reassign >>= 2 : {0}",a);
+
+Console.WriteLine(repeatedChars + repeatedChars);
