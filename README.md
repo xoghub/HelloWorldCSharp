@@ -16,6 +16,10 @@ This repository contains several standalone C# scripts, each focusing on a speci
     *   Logical (`&&`, `||`, `!`)
     *   Ternary operations.
 *   **`ForLoop.cs`**: Examples of control flow and iteration using loops.
+*   **`whileLoop.cs`**: Demonstrates iterations utilizing `while` loops, including number counting and input validation.
+*   **`conditionalState.cs`**: Covers conditional statements including `if/else if/else` logic and `switch` statements.
+*   **`logicalOperator.cs`**: Deep dive into logical operators (`&&`, `||`, `!`) and conditional branching based on combined conditions.
+*   **`stringMethods.cs`**: Explores common string manipulation methods such as `.Replace()`, `.Substring()`, `.Contains()`, `.ToUpper()`, and more.
 
 ### Input/Output & Libraries
 *   **`simpleIO.cs`**: Demonstrates basic console interaction, reading user input, type conversion (`Convert.ToInt32`), and advanced string formatting.
@@ -40,12 +44,25 @@ dotnet run --project <FileName>.cs
 
 ## 📈 Roadmap
 
+### 🌱 Phase 1: Core Fundamentals (In Progress)
 - [x] Basic Syntax & Variables
-- [x] Operators & Logic
-- [x] Input/Output
-- [x] Math Functions
-- [ ] Conditional Statements (If/Else, Switch)
-- [ ] Arrays & Lists
-- [ ] Object-Oriented Programming (Classes & Objects)
-- [ ] Exception Handling
+- [x] Operators, Math, & Logic
+- [x] Console Input/Output
+- [x] Control Flow & Conditionals
+- [x] Iteration & Loops
+- [x] String Manipulation
+- [ ] Arrays & Collections (Lists, Dictionaries)
+- [ ] Methods & Functions
 
+### 🧱 Phase 2: Object-Oriented Programming (OOP)
+- [ ] Classes & Objects
+- [ ] Properties, Fields, & Constructors
+- [ ] Encapsulation & Access Modifiers
+- [ ] Inheritance & Polymorphism
+- [ ] Interfaces & Abstract Classes
+
+### 🚀 Phase 3: Advanced Concepts
+- [ ] Exception Handling (`try...catch`)
+- [ ] File I/O Operations
+- [ ] LINQ (Language Integrated Query)
+- [ ] Asynchronous Programming (`async` / `await`)
