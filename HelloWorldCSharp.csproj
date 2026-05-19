@@ -10,6 +10,7 @@
     <!-- We have to define a StartupObject because you have many files with a Main() method (like classes.cs, HelloWorld.cs, array.cs, etc.) -->
     <!-- You can change this manually or pass it from the command line when running -->
     <StartupObject>HelloWorld.Classes</StartupObject>
+    <RootNamespace>HelloWorld</RootNamespace>
   </PropertyGroup>
 
 </Project>
