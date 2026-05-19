@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- Using net10.0 based on your other projects -->
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <!-- We have to define a StartupObject because you have many files with a Main() method (like classes.cs, HelloWorld.cs, array.cs, etc.) -->
+    <!-- You can change this manually or pass it from the command line when running -->
+    <StartupObject>HelloWorld.Classes</StartupObject>
+  </PropertyGroup>
+
+</Project>

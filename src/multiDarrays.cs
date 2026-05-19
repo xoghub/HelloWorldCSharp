@@ -7,7 +7,7 @@ namespace HelloWorld{
             Multi-Dimensional Arrays
             Multi-dimensional arrays are arrays that have more than one dimension.
             Syntax:
-            datatype[,] arrayName = new datatype[rows, columns];
+            datatype[,] arrayName = new datatype[rows, columns]; # length is fixed
             */
             string[] berries = {"Strawberry", "Blueberry", "Raspberry", "Blackberry", "Banana", "Orange"};
             string[] apples = {"Granny Smith", "Red Delicious", "Gala", "Fuji", "Malang", "Avocado"};

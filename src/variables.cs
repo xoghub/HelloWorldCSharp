@@ -1,29 +1,37 @@
-int nameVar = 3;
-string nameString = "Hello";
-double nameDouble = 3.14;
-char nameChar = 'H';
-bool nameBool = true;
-double name = nameVar + nameDouble;
-// explisit casting :
-int nameint = (int)(nameVar + nameDouble);
-int x, y, z;
-x = y = z = 50;
-// implicite casting
-double xyz = x + y + z;
-float myNum = 5.75003003045445455F;
-double myDou = 19.99353132341235353354323521351234D;
-Console.WriteLine(xyz);
-Console.WriteLine(xyz.GetType());
-Console.WriteLine(myNum);
-Console.WriteLine(myDou);
-Console.WriteLine(nameVar);
-Console.WriteLine(nameString);
-Console.WriteLine(nameDouble);
-Console.WriteLine(nameChar);
-Console.WriteLine(nameBool);
-Console.WriteLine(name);
-Console.WriteLine(nameint);
-Console.WriteLine(name.GetType());
-Console.WriteLine(nameint.GetType());
-Console.WriteLine(nameString + "\tWorld");
-Console.WriteLine(x + y + z);
+using System;
+
+namespace HelloWorld{
+    class Variables{
+        public static void Main(string[] args){
+            int nameVar = 3;
+            string nameString = "Hello";
+            double nameDouble = 3.14;
+            char nameChar = 'H';
+            bool nameBool = true;
+            double name = nameVar + nameDouble;
+            // explisit casting :
+            int nameint = (int)(nameVar + nameDouble);
+            int x, y, z;
+            x = y = z = 50;
+            // implicite casting
+            double xyz = x + y + z;
+            float myNum = 5.75003003045445455F;
+            double myDou = 19.99353132341235353354323521351234D;
+            Console.WriteLine(xyz);
+            Console.WriteLine(xyz.GetType());
+            Console.WriteLine(myNum);
+            Console.WriteLine(myDou);
+            Console.WriteLine(nameVar);
+            Console.WriteLine(nameString);
+            Console.WriteLine(nameDouble);
+            Console.WriteLine(nameChar);
+            Console.WriteLine(nameBool);
+            Console.WriteLine(name);
+            Console.WriteLine(nameint);
+            Console.WriteLine(name.GetType());
+            Console.WriteLine(nameint.GetType());
+            Console.WriteLine(nameString + "\tWorld");
+            Console.WriteLine(x + y + z);
+        }
+    }
+}

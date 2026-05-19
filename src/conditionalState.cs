@@ -1,6 +1,6 @@
 using System;
 
-namespace HelloWorldCSharp
+namespace HelloWorld
 {
     public class ConditionalState
     {

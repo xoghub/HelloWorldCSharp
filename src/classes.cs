@@ -8,6 +8,11 @@ namespace HelloWorld{
             Console.WriteLine(person.getInfo());
             Console.WriteLine(person.walk("Home"));
             Console.WriteLine(person.run("Work"));
+
+            // We don't need to import anything since both are in namespace HelloWorld
+            // We call these directly because they are 'static' methods
+            Messages.sayHello();
+            Messages.sayGoodbye();
         }
     }
 

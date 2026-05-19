@@ -1,6 +1,6 @@
 using System;
 
-namespace HelloWorldCSharp
+namespace HelloWorld
 {
     class WhileLoop
     {
