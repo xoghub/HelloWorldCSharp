@@ -6,9 +6,14 @@ namespace HelloWorld{
             // ARRAY IS VARIABLE THAT CAN STORE MULTIPLE VALUES WITH FIXED SIZE.
             
             String[] candys = {"KitKat", "Snickers", "Mars", "Twix", "Kinder"};
+            String[] sortCandys = candys.OrderBy(x => x).ToArray();
+            candys.Sort();
 
             for (int index = 0; index < candys.Length; index++){
-                Console.WriteLine("using for " + candys[index]);
+                Console.WriteLine("sort by Sort method " + candys[index]);
+            }
+            for (int index = 0; index < sortCandys.Length; index++){
+                Console.WriteLine("sort by OrderBy + toArray menthod " + sortCandys[index]);
             }
 
             // reassign
